@@ -1,5 +1,5 @@
 
-![](https://nodei.co/npm/botrix-npm.png?downloads=true&downloadRank=true&stars=true)
+![](https://www.npmjs.com/package/botrix-npm)
 # The official package for the botrix API
 
 ## Useage
