@@ -10,7 +10,7 @@ npm i botrix-npm
 
 This is a simple example on how you can get the user object. [More info on user object](https://github.com/WindowsCmd/botrixApiDocs)
 ```js
-const botrix_ = require('../src/botrix');
+const botrix_ = require('botrix-npm');
 
 var botrix = new botrix_();
 
