@@ -1,8 +1,8 @@
 {
   "name": "botrix-npm",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "The official npm wrapper for Botrix.cc",
-  "main": "src/index.js",
+  "main": "src/botrix.js",
   "directories": {
     "test": "tests"
   },
