@@ -1,0 +1,22 @@
+{
+  "name": "botrix-npm",
+  "version": "0.0.2",
+  "description": "The official npm wrapper for Botrix.cc",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Botrixlist/botrix-npm.git"
+  },
+  "author": "Windows",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Botrixlist/botrix-npm/issues"
+  },
+  "homepage": "https://github.com/Botrixlist/botrix-npm#readme"
+}
