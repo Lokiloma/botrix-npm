@@ -1,6 +1,10 @@
 
-![](https://www.npmjs.com/package/botrix-npm)
 # The official package for the botrix API
+
+```
+npm i botrix-npm
+```
+
 
 ## Useage
 
