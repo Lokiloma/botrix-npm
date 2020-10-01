@@ -6,7 +6,7 @@ npm i botrix-npm
 ```
 
 
-## Useage
+## Usage
 
 This is a simple example on how you can get the user object. [More info on user object](https://github.com/WindowsCmd/botrixApiDocs)
 ```js
