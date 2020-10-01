@@ -19,7 +19,7 @@ class Botrix{
             request(`${this.baseUrl}/user/${userID}`, function (error, response, body) {
                 if(error) reject(error);
 
-                resolve(body);
+                resolve(JSON.parse(body));
             });
         });
     }
@@ -30,7 +30,7 @@ class Botrix{
             request(`${this.baseUrl}/queue`, function (error, response, body) {
                 if(error) reject(error);
 
-                resolve(body);
+                resolve(JSON.parse(body));
             });
         });
     }
@@ -40,7 +40,7 @@ class Botrix{
             request(`${this.baseUrl}/bot/${botID}`, function (error, response, body) {
                 if(error) reject(error);
 
-                resolve(body);
+                resolve(JSON.parse(body));
             });
         });
     }
@@ -50,7 +50,7 @@ class Botrix{
             request(`${this.baseUrl}/bot/${botID}`, function (error, response, body) {
                 if(error) reject(error);
 
-                resolve(body);
+                resolve(JSON.parse(body));
             });
         });
     }
