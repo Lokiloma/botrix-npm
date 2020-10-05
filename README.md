@@ -1,33 +1,118 @@
+# Official Botrix API
 
-# The official package for the botrix API
+This is the documention for the API for the Botrix bot list.
 
 ```
-npm i botrix-npm
+npm -i bortix-npm
 ```
 
+### Function: `getUser();`
 
-## Useage
+To use this function, it can be used two ways:
 
-This is a simple example on how you can get the user object. [More info on user object](https://github.com/WindowsCmd/botrixApiDocs)
+In a JS application:
+
 ```js
-const botrix_ = require('botrix-npm');
+const Botrix = require('botrix-npm');
 
-var botrix = new botrix_();
+user();
 
+async function user() {
+const user = await Botrix.getUser('534232491360387082');
 
-(async function ()  {
-    console.log(await botrix.getUser("222042705285480448"))
-})();
+return console.log(user);
+}
+
 ```
 
-Get bot method 
+or if you would like to implement the function into a Discord bot you can do:
+
 ```js
-botrix.getBot("721013842200756276")
+const Botrix = require('botrix-npm');
+
+module.exports = {
+    name: 'getuser',
+    async run (client, message, args) {
+        const user = message.mentions.users.first();
+        
+        const userData = await Botrix.getUser(user);
+        
+        console.log(userData);
+    }
+}
 ```
 
-Get queue method.. Returns the queue of the current bots.
+### Function: `getBot();`
+
+To use this function, it can be used two ways:
+
+In a JS application:
+
 ```js
-botrix.getQueue()
+const Botrix = require('botrix-npm');
+
+bot();
+
+async function bot() {
+const bot = await Botrix.getBot('534232491360387082');
+
+return console.log(bot);
+}
+
 ```
 
+or if you would like to implement the function into a Discord bot you can do:
 
+```js
+const Botrix = require('botrix-npm');
+
+module.exports = {
+    name: 'getuser',
+    async run (client, message, args) {
+        const bot = message.mentions.users.first();
+        
+        const botData = await Botrix.getBot(bot);
+        
+        console.log(botData);
+    }
+}
+```
+
+### Function: `getQueue();`
+
+To use this function, it can be used two ways:
+
+In a JS application:
+
+```js
+const Botrix = require('botrix-npm');
+
+queue();
+
+async function user() {
+const user = await Botrix.getQueue();
+
+return console.log(user);
+}
+
+```
+
+or if you would like to implement `botrix-npm` into a Discord bot you can do:
+
+```js
+const Botrix = require('botrix-npm');
+
+module.exports = {
+    name: 'getuser',
+    async run (client, message, args) {
+        const queueData = await Botrix.getQueue();
+        
+        console.log(queueData);
+    }
+}
+```
+
+### Links:
+
+Botrix Website: https://botrix.cc/
+NPM Package: https://npmjs.org/package/botrix-npm/
