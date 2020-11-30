@@ -6,6 +6,19 @@ This is the documention for the API for the Botrix bot list.
 npm -i bortix-npm
 ```
 
+## Base URL:
+(AS OF 30/11/2020) 
+The base url to botrix API is:
+```
+https://botrix.cc/api/v1/
+```
+
+This can further be followed up by:
+```
+https://botrix.cc/api/v1/bot/:botID
+https://botrix.cc/api/v1/server/:serverID
+```
+
 ### Function: `getUser();`
 
 To use this function, it can be used two ways:
