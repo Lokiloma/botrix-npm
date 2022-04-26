@@ -1,9 +1,9 @@
 const request = require('request');
 
-class Botrix{
+class Tumull{
 
     constructor(){
-        this.baseUrl = "https://botrix.cc/api/v1"
+        this.baseUrl = "https://tumull.casino/api/v1"
     }
 
 
@@ -57,4 +57,4 @@ class Botrix{
 }
 
 
-module.exports = Botrix;
+module.exports = Tumull;
