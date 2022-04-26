@@ -1,8 +1,8 @@
-const botrix_ = require('../src/botrix');
+const tumull_ = require('../src/tumull');
 
-var botrix = new botrix_();
+var tumull = new tumull_();
 
 
 (async function ()  {
-    console.log(await botrix.getBot("416451977380364288"))
+    console.log(await tumull.getBot("416451977380364288"))
 })();
