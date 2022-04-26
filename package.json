@@ -1,8 +1,8 @@
 {
-  "name": "botrix-npm",
-  "version": "0.1.4",
-  "description": "The official npm wrapper for Botrix.cc",
-  "main": "src/botrix.js",
+  "name": "tumull-npm",
+  "version": "0.0.1",
+  "description": "The official npm wrapper for tumull.casino",
+  "main": "src/tumull.js",
   "directories": {
     "test": "tests"
   },
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Botrixlist/botrix-npm.git"
+    "url": "git+https://github.com/Lokiloma/tumull-npm.git"
   },
   "author": "Windows",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Botrixlist/botrix-npm/issues"
+    "url": "https://github.com/Lokiloma/tumull-npm/issues"
   },
-  "homepage": "https://github.com/Botrixlist/botrix-npm#readme",
+  "homepage": "https://github.com/Lokiloma/tumull-npm#readme",
   "dependencies": {
     "request": "^2.88.2"
   }
